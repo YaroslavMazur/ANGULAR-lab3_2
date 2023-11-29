@@ -1,0 +1,37 @@
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    background-color: var(--main-color);
+    color: white;
+}
+
+.form h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form label{
+    font-weight: 300;
+    margin: 15px 0px 10px;
+}
+
+.form input{
+    padding: 5px 10px;
+}
+
+.btnSubmit{
+    width: 60px;
+    padding: 5px;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.error-login{
+    color: red;
+    text-align: center;
+    margin: 20px;
+}
